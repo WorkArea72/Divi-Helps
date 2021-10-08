@@ -1,0 +1,8 @@
+Código para evitar el efecto en la plantilla Divi. El efecto Fluc consiste en visualizar durante unos segundos la página sin estilos durante el proceso de carga. 
+Se puede ocultar usando un Plugin de Preload o copiando este código en Divi/Opciones del Tema/Integración/Head
+
+<script type="text/javascript">
+var elm=document.getElementsByTagName("html")[0];
+elm.style.display="none";
+document.addEventListener("DOMContentLoaded",function(event) {elm.style.display="block"; });
+</script>
