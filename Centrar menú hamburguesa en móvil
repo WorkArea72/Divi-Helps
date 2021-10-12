@@ -1,0 +1,5 @@
+@media (max-width: 980px){
+.et_pb_menu--style-left_aligned.et_pb_text_align_right .et_pb_menu__wrap {
+    -ms-flex-pack: end;
+    justify-content: center;
+}}
