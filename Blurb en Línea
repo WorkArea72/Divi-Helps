@@ -1,0 +1,5 @@
+/*Poner en Fila*/
+display:flex;
+
+/*Poner cada columna de la Fila*/
+display: inline-flex;
