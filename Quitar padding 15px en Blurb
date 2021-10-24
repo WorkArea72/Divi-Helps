@@ -1,0 +1,5 @@
+/*Poner clase top_bar a cada módulo Blurb*/
+
+.top_bar.et_pb_blurb_position_left .et_pb_blurb_container{
+	padding-left:0px;
+}
