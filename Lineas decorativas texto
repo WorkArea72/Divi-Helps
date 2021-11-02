@@ -1,0 +1,15 @@
+En el main element:
+
+display:inline-block;
+position: relative;
+
+en before y after
+
+content:"";
+width: 7vw;
+height:2px;
+position: absolute;
+background-color: currentColor;
+top:0.6em;
+z-index: 10;
+left:-8vw;
