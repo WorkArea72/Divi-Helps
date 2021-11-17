@@ -1,0 +1,65 @@
+<!-- 
+  Bootstrap docs: https://getbootstrap.com/docs
+-->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col">
+    
+    
+    
+      <p class="dot-word-container">
+        <span class="dot-word">Trabaja</span>
+        <span class="dot-word">Vive</span>
+        <span class="dot-word">Siente</span>
+      </p>
+    
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>  
+</div>
+
+
+<!-- 
+  CSS -Bootstrap docs: https://getbootstrap.com/docs
+-->
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px #6c757d;
+  padding: 10px;
+}
+
+.dot-word-container {
+  text-align: center;
+}
+
+.dot-word {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dot-word:not(:first-child) {
+  margin-left: -.42em;  
+}
+
+.dot-word:after, .dot-word:before {
+  content: '·';
+  font-size: 1em;
+}
+
+.dot-word:before {
+  margin-right: 0.25em;
+}
+.dot-word:after {
+  margin-left: 0.25em;
+}
